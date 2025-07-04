@@ -52,7 +52,7 @@ earlier:
 
 You can simply plot the results as follows:
 
->>> ig.plot(partition) # doctest: +SKIP
+>>> ig.plot(partition, target="output.png") # doctest: +SKIP
 
 .. image:: figures/karate_modularity.png
 
